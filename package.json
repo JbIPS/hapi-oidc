@@ -1,10 +1,10 @@
 {
   "name": "hapi-oidc",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Hapi authentication strategy for OpenID Connect",
   "author": "Jean-Baptiste Richardet <jeanbaptiste.richardet@gmail.com> (https://github.com/JbIPS)",
   "license": "MIT",
-	"main": "lib/strategy.js",
+  "main": "lib/strategy.js",
   "scripts": {
     "lint": "eslint lib/**/*.js"
   },
