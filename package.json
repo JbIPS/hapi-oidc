@@ -1,0 +1,35 @@
+{
+  "name": "hapi-oidc",
+  "version": "0.0.2",
+  "description": "Hapi authentication strategy for OpenID Connect",
+  "author": "Jean-Baptiste Richardet <jeanbaptiste.richardet@gmail.com> (https://github.com/JbIPS)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint lib/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JbIPS/hapi-oidc.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/JbIPS/hapi-oidc/issues"
+  },
+  "homepage": "https://github.com/JbIPS/hapi-oidc",
+  "keywords": [
+    "openid",
+    "connect",
+    "hapi"
+  ],
+  "dependencies": {
+    "hoek": "^5.0.4",
+    "openid-client": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
