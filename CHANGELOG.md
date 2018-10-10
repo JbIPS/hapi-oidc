@@ -5,9 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.1.0] - 2018-10-10
+### Addded
+* Allows manual OIDC configuration
+
 ## [1.0.0] - 2018-10-08
 ### Added
 * First version
 
-[Unreleased]: https://github.com/JbIPS/hapi-oidc/compare/HEAD...v1.0.0
+[Unreleased]: https://github.com/JbIPS/hapi-oidc/compare/HEAD...v1.1.0
+[1.1.0]: https://github.com/JbIPS/hapi-oidc/compare/v1.1.0...v1.0.0
 [1.0.0]: https://github.com/JbIPS/hapi-oidc/compare/v1.0.0
