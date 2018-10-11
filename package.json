@@ -1,6 +1,6 @@
 {
   "name": "hapi-oidc",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Hapi authentication strategy for OpenID Connect",
   "author": "Jean-Baptiste Richardet <jeanbaptiste.richardet@gmail.com> (https://github.com/JbIPS)",
   "license": "MIT",
