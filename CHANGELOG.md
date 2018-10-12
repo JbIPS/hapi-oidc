@@ -5,15 +5,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-## [1.2.2] - 2018-10-11
+## [1.2.3] - 2018-10-12
+### Fixed
+* Throw error instead of h.unauthenticated()
+
+## [1.2.2] - 2018-10-11 [YANKED]
 ### Fixed
 * Syntax error
 
-## [1.2.1] - 2018-10-11
+## [1.2.1] - 2018-10-11 [YANKED]
 ### Fixed
 * Fixes bug when no cookie was set
 
-## [1.2.0] - 2018-10-11
+## [1.2.0] - 2018-10-11 [YANKED]
 ### Added
 * Scope can now be set in configuration
 * Log authentication error
@@ -26,7 +30,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 * First version
 
-[Unreleased]: https://github.com/JbIPS/hapi-oidc/compare/HEAD...v1.2.2
+[Unreleased]: https://github.com/JbIPS/hapi-oidc/compare/HEAD...v1.2.3
+[1.2.3]: https://github.com/JbIPS/hapi-oidc/compare/v1.2.3...v1.2.2
 [1.2.2]: https://github.com/JbIPS/hapi-oidc/compare/v1.2.2...v1.2.1
 [1.2.1]: https://github.com/JbIPS/hapi-oidc/compare/v1.2.1...v1.2.0
 [1.2.0]: https://github.com/JbIPS/hapi-oidc/compare/v1.2.0...v1.1.0
