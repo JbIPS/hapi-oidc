@@ -11,6 +11,13 @@ This plugin needs some configuration to discover and connect to the OIDC server:
 * `callbackUrl`: The full URL that the server will call after the authorization process
 * [`cookie`]: Name of the cookie that will held the authentication. Defaults to `hapi-oidc`
 
+Alternatively, you can manually setup your OIDC client by replacing the discover URL by:
+* `issuer`: URL of the issuer
+* `authorization`: Authorization endpoint
+* `token`: Token generation endpoint
+* `userinfo`: User infos endpoint
+* `jwks`: JWKS endpoint
+
 When registering the `oidc` scheme, you'll need to configure the [cookie settings](https://hapijs.com/api#server.state()) if defaults do not suits you:
 * `password`=uuid4(),
 * [`path`='/']
