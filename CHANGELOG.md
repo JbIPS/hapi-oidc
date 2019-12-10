@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [2.0.1] - 2019-12-10
+### Fixed
+* Fixes custom cookie name
+
 ## [2.0.0] - 2018-11-15
 ### Changed
 * User infos are now in `artifacts` and tokens are un `credentials`
@@ -34,7 +38,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 * First version
 
-[Unreleased]: https://github.com/JbIPS/hapi-oidc/compare/HEAD...v2.0.0
+[Unreleased]: https://github.com/JbIPS/hapi-oidc/compare/HEAD...v2.0.1
+[2.0.1]: https://github.com/JbIPS/hapi-oidc/compare/v2.0.1...v2.0.0
 [2.0.0]: https://github.com/JbIPS/hapi-oidc/compare/v2.0.0...v1.2.3
 [1.2.3]: https://github.com/JbIPS/hapi-oidc/compare/v1.2.3...v1.2.2
 [1.2.2]: https://github.com/JbIPS/hapi-oidc/compare/v1.2.2...v1.2.1
